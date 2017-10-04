@@ -5,7 +5,7 @@
  * Simply logs into Steam using account credentials, goes online on friends, and launches Team Fortress 2
  */
 
-var SteamUser = require('steam-user'); // Replace this with `require('steam-user');` if used outside of the module directory
+var SteamUser = require('steam-user'); 
 var client = new SteamUser();
 
 var text = '';
