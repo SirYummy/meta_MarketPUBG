@@ -1,0 +1,6 @@
+ { 
+   "apps" : [
+              { "script"    : "MarketPUBG.js" },
+              {"script" : "SteamAuth.js"}
+  ]
+}

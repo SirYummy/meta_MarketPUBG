@@ -1,0 +1,3 @@
+[submodule "MarketPUBG"]
+	path = MarketPUBG
+	url = https://github.com/SirYummy/MarketPUBG.git

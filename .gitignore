@@ -57,3 +57,14 @@ typings/
 # dotenv environment variables file
 .env
 
+# SSH
+.ssh
+
+# Bash
+.bash_history
+.bash_logout
+.bashrc
+.profile
+
+# PM2
+.pm2
