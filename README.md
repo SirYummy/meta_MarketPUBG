@@ -7,7 +7,7 @@ This repo does all the orchestrating between the main MarketPUBG Node/React appl
 
 ## To get things started:
 1.  ```npm i```
-2. ```pm2 start process.json``` or ```npm start```
+2. ```pm2 start processes.json``` or ```npm start```
 3. You should be able to see what's happening with ```pm2 status```
 
 Author: Micah Bolen
