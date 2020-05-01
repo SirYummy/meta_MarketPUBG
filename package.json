@@ -1,17 +1,21 @@
 {
-  "name":"marketpubg-meta",
+  "name": "marketpubg-meta",
   "version": "1.0.0",
   "description": "",
   "main": "MarketPUBG.js",
   "scripts": {
     "start": "pm2 start processes.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Micah Bolen",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.1",
     "serve-static": "^1.13.1",
-    "steam-user": "^3.23.2"
-  }
+    "steam-user": "^3.23.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
