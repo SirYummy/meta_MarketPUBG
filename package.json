@@ -12,6 +12,6 @@
   "dependencies": {
     "express": "^4.16.1",
     "serve-static": "^1.13.1",
-    "steam-user": "^3.23.2"
+    "steam-user": "^4.12.2"
   }
 }
